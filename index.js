@@ -1,11 +1,8 @@
+let interestRate = 0.3;
+interestRate = 1;
+console.log(interestRate)
 
-let name = 'Mosh';
- console.log(name);
 
- //Cannot be a reserved keyword
- //They should be meaningful
- //Cannot start with a name
- //Cannot contain a space or hypen(-)
-
- let firstName = 'Rishav', lastName = 'Prabhraj'; //camelNotation
-
+// const interestRate = 0.3;
+// interestRate = 1;
+// console.log(interestRate)
