@@ -1,7 +1,5 @@
-//For..in loop
+//for-of
 
-let items = ['Marry', 'Gold', "Hero"];
-
-for(let index in items){
-    console.log(items[index]);
-}
+let colors = ['Red','Green','Blue'];
+for(let color of colors)
+    console.log(color);
