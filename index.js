@@ -1,19 +1,17 @@
-//Functions
+//Operators
 
+let x = 30;
+let y = 3;
 
-//Performing a task
-function greet(message) {
-    //body of the function
-    console.log(message);
-}
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+console.log(x % y);
+console.log(x ** y);
 
-//Calculates a value
-function square(number){
-   return number * number;
-}
+//Increment
+console.log(++x);  //first increment and the display
+console.log(x++); //first display and then increment
 
-greet('Hello from the function');
-let number = square(2);
-
-
-console.log(number);
+console.log(x--);
