@@ -1,14 +1,8 @@
+//arrays
 
-let person = {
-    name : 'Rishav',
-    age : 30
-};
+let selectedColors = ['red','blue']; //array literal
 
-// Dot Notation
-person.name = "John";
+selectedColors.push('green');
 
-//Bracket notation
-let selection = 'name';
-person[selection] = 'Mary';
-
-console.log(person.name);
+console.log(selectedColors[2]);
+console.log(selectedColors.length);
