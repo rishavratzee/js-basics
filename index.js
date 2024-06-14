@@ -1,8 +1,8 @@
-//arrays
+//Functions
 
-let selectedColors = ['red','blue']; //array literal
+function greet(message) {
+    //body of the function
+    console.log(message);
+}
 
-selectedColors.push('green');
-
-console.log(selectedColors[2]);
-console.log(selectedColors.length);
+greet('Hello from the function');
