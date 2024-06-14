@@ -1,12 +1,14 @@
-let name = 'Rishav'; // String Literal
-let age = 30; // Number Literal
-let isApproved = false; // Boolean Literal
-let firstName = undefined;
-let selectedColor = null
 
-//Dynamic typing
+let person = {
+    name : 'Rishav',
+    age : 30
+};
 
-typeof(name);
-name = 1;
-typeof(name);
+// Dot Notation
+person.name = "John";
 
+//Bracket notation
+let selection = 'name';
+person[selection] = 'Mary';
+
+console.log(person.name);
