@@ -1,17 +1,26 @@
 //Operators
 
-let x = 30;
-let y = 3;
+let x = 30;  //assigment operator
 
-console.log(x + y);
-console.log(x - y);
-console.log(x * y);
-console.log(x / y);
-console.log(x % y);
-console.log(x ** y);
+x += 5; //shorthand operator
+x *= 3;
 
-//Increment
-console.log(++x);  //first increment and the display
-console.log(x++); //first display and then increment
+//comparison operator
 
-console.log(x--);
+//Relational operator
+console.log( x>0 );
+
+//Equality operator
+
+//strict equality operator
+console.log('1' === 1);
+
+//Lose Equality
+console.log( '1'==1 );
+
+
+
+console.log(x !== 1);
+
+
+
